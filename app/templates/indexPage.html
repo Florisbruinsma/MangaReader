@@ -1,0 +1,7 @@
+{% extends "basePage.html" %}
+
+{% block content %}
+    {% for anime in animeIndex %}
+        <div><p>{{ anime.title }}</p></div>
+    {% endfor %}
+{% endblock %}
